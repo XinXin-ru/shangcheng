@@ -84,7 +84,7 @@ export default {
         //项目中除了登录之外的其他API接口，必须在登录之后才能访问
         // token 只应在当前网站打开期间生效，所以 token 保存在 sessionStorage中
         console.log(res);
-        window.sessionStorage.setItem("token", res.data.tolen);
+        window.sessionStorage.setItem("token", res.data.token);
         // 通过编程式导航跳转到后台主页，路由地址是 /home
         this.$router.push("/home");
       });
