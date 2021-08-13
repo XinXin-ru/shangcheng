@@ -5,11 +5,11 @@ import store from './store'
 // import './plugins/element.js'
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
-
 // 导入全局样式表
 import './assets/global.css'
 import './assets/fonts/iconfont.css'
 import axios from 'axios'
+import ZkTable from 'vue-table-with-tree-grid'
 
 
 // 配置请求路径
@@ -24,6 +24,8 @@ Vue.prototype.$http = axios
 
 Vue.config.productionTip = false
 Vue.use(ElementUI);
+Vue.use(ZkTable)
+
 
 new Vue({
     router,

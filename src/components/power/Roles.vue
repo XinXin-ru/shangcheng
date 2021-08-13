@@ -8,7 +8,7 @@
     </el-breadcrumb>
     <!-- 卡片视图 -->
     <el-card>
-      <!-- 添加校色按钮区域 -->
+      <!-- 添加角色按钮区域 -->
       <el-row>
         <el-col>
           <el-button type="primary">添加角色</el-button>
